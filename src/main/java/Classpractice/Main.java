@@ -8,10 +8,8 @@ public class Main {
 
         personOne.sayHello();
         personTwo.sayHello();
-
-
-
-
+        String height = Person1.displayHeight(5.3);
+        System.out.println(height);
 
     }
 }

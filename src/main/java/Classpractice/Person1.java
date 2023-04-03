@@ -16,18 +16,23 @@ public class Person1 {
 
     public void setName(String name) {
         this.name = name;
-    }
+    }// end of name
 
-        public int getAge() {
-            return  age;
-
-        }
-        public void setAge (int age){
-            this.age = age;
-        }
-        public void sayHello() {
-            System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
-        }
+    public int getAge() {
+        return age;
 
     }
+
+    public void setAge(int age) {
+        this.age = age;
+    }// end of age
+
+
+    public void sayHello() {
+        System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
+    }
+    public static String displayHeight(double height){
+        return  Double.toString(height);
+    }
+}
 
