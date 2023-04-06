@@ -1,59 +1,59 @@
 package Product;
 
-public class Customer {
-    private String CustomerName;
-    private String address;
-    private String Email;
-    private String PurchasedProdcuts;
+import Product.Address.Address;
 
-    public Customer(String CustomerName, String address, String Email, String PurchasedProdcuts) {
-        this.CustomerName = CustomerName;
-        this.address = address;
-        this.Email = Email;
-        this.PurchasedProdcuts = PurchasedProdcuts;
+public class Customer {
+    private String customerName;
+
+    private String email;
+    private Product1[] purchasedProducts;
+    private Address[] address;
+
+    public Customer(String customerName, String email, Product1[] purchasedProducts) {
+        this.customerName = customerName;
+
+        this.email = email;
+        this.purchasedProducts = purchasedProducts;
     }
 
     public String getCustomerName() {
-        return CustomerName;
+        return customerName;
     }
 
     public void setCustomerName() {
-        this.CustomerName = CustomerName;
+        this.customerName = customerName;
     }
 
-    public String getAddress() {
-        return address;
-    }
 
-    public void setAddress() {
-        this.address = address;
-    }
 
     public String getEmail() {
-        return Email;
+        return email;
     }
 
     public void setEmail() {
-        this.Email = Email;
-    }
-    public String getPurchasedProdcuts() {
-        return PurchasedProdcuts;
+        this.email = email;
     }
 
-    public void setPurchasedProdcuts() {
-        this.PurchasedProdcuts = PurchasedProdcuts;
+    public Product1[] getPurchasedProducts() {
+        return purchasedProducts;
+    }
+
+    public void setPurchasedProducts() {
+        this.purchasedProducts = purchasedProducts;
 
     }
 
-        public void getCustomerInfo() {
-            System.out.println("Customer Name: " + CustomerName);
-            System.out.println("Address: " + address);
-            System.out.println("Email: " + Email);
-            System.out.println("Purchased Products:");
-            for (Product1 product : PurchasedProdcuts) {
-                System.out.println(product.getProductName() + " $" + product.getProductPrice();
-            }//tried to use For loop and it is  not working
-        }
-        }
+    public void addAddress(Address address)
+
+    public void getCustomerInfo() {
+        System.out.println("Customer Name: " + customerName);
+        System.out.println("Address: " + address);
+        System.out.println("Email: " + email);
+        System.out.println("Purchased Products:");
+        for (Product1 product : purchasedProducts) {
+            System.out.println(product.getProductName() + " $" + product.getProductPrice());
+        }//tried to use For loop and it is  not working
+    }
+}
 
 

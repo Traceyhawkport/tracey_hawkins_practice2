@@ -1,28 +1,28 @@
 package Product;
 
 public class Product1 {
-    private String ProductName;
-    private double ProductPrice;
+    private String productName;
+    private double productPrice;
 
-    public Product1(String productName, double ProductPrice) {
-        this.ProductName = ProductName;
-        this.ProductPrice = ProductPrice;
+    public Product1(String productName, double productPrice) {
+        this.productName = productName;
+        this.productPrice = productPrice;
     }
+
     public String getProductName() {
-        return ProductName;
+        return productName;
     }
-    public void setProductName(String ProductName) {
-        this.ProductName = ProductName;
+
+    public void setProductName(String productName) {
+        this.productName = productName;
     }
+
     public double getProductPrice() {
-        return ProductPrice;
+        return productPrice;
+    }
 
-        }
-
-    public void setProductName(double ProductPrice) {
-        this.ProductPrice = ProductPrice;
-
-
+    public void setProductName(double productPrice) {
+        this.productPrice = productPrice;
     }
 
 

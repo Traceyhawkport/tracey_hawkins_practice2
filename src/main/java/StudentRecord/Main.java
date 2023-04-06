@@ -11,7 +11,7 @@ public class Main {
         StudentRecord1 student4 =new StudentRecord1("Pamela",2.5, 3.0);
 //next I am working on  print statements about the number of students
         //I am also working on student grade averages.
-int numberOfStudents = StudentRecord1.getnumberOfStudents();
-System.out.println(numberOfStudents);
+//int numberOfStudents = StudentRecord1.getnumberOfStudents();
+//System.out.println(numberOfStudents);
     }
 }

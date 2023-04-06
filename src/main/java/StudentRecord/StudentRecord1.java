@@ -40,11 +40,11 @@ public class StudentRecord1 {
     public double getMathScore() {
         return MathScore;
 
-        public int getnumberOfStudents() {
-            return numberOfStudents;
+        //public int getnumberOfStudents() {
+            //return numberOfStudents;
 
 
         }
     }
 
-}
+
