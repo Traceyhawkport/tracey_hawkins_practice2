@@ -28,11 +28,12 @@ public class Person1 {
     }// end of age
 
 
-    public void sayHello() {
-        System.out.println("Hello, my name is " + name + " and I am " + age + " years old.");
-    }
+
     public static String displayHeight(double height){
         return  Double.toString(height);
+    }
+
+    public void sayHello() {
     }
 }
 

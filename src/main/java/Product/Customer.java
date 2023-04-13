@@ -7,7 +7,8 @@ public class Customer {
 
     private String email;
     private Product1[] purchasedProducts;
-    private Address[] address;
+    private Address[] addresses;
+    private int nextAvailableAddressSlot;//??
 
     public Customer(String customerName, String email, Product1[] purchasedProducts) {
         this.customerName = customerName;
@@ -23,7 +24,6 @@ public class Customer {
     public void setCustomerName() {
         this.customerName = customerName;
     }
-
 
 
     public String getEmail() {
@@ -43,11 +43,18 @@ public class Customer {
 
     }
 
-    public void addAddress(Address address)
+    public void addAddress(Address address) {
+
+        }
+
+
 
     public void getCustomerInfo() {
         System.out.println("Customer Name: " + customerName);
-        System.out.println("Address: " + address);
+        for (Address address : addresses) {
+            System.out.println(address.getStreetNumber() + " " + address.getStreetName() + ""
+                    + address.getCity() + "" + address.getState() + "");
+        }
         System.out.println("Email: " + email);
         System.out.println("Purchased Products:");
         for (Product1 product : purchasedProducts) {
