@@ -3,7 +3,7 @@ package employee_app.com.hr.personnel;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Employee {
+public abstract class Employee {
 
     private String name;
     private LocalDate hireDate;
@@ -13,8 +13,27 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
-    public Employee() {
+    public Employee() {  //remember default constructor
 
+    }
+
+
+
+
+    public void setName(String name) {
+        this.name = name;
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getHireDate() {
+        return hireDate;
+    }
+    public void setHireDate(LocalDate hireDate) {
+        this.hireDate = hireDate;
     }
 
     public String getEmployeeInfo() {
@@ -27,42 +46,28 @@ public class Employee {
     }
 
 
-    public int computeNumberOfYearsWorkedSinceHired() {
-        LocalDate currentDate = LocalDate.now();
-        Period period = Period.between (hireDate, currentDate);
-        return period.getYears();
+    public abstract double computeMonthlyCompensation ();
+    {
+
         //period class java time package
 
 
     }
-    public static class SalariedEmployee extends Employee {
-        private double monthlySalary;
-
-        public SalariedEmployee(String name, LocalDate hireDate) {
-            super(name, hireDate);
-        }
-
-        public SalariedEmployee(String tiffany, int i, int i1, int i2) {
-            super(); // intellj debugged code
-
-        }
 
 
     }
 
-    // HourlyEmployee subclass
-    public class HourlyEmployee extends Employee {
-        private int hoursWorkedPerMonth;
-        private double hourlyRate;
-
-        public HourlyEmployee(String name, LocalDate hireDate) {
-            super(name, hireDate);
-        }
-
-    }
 
 
 
 
 
-}
+
+
+
+
+
+
+
+
+
