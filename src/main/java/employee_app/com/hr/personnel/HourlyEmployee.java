@@ -1,10 +1,13 @@
 package employee_app.com.hr.personnel;
 
+
 import java.time.LocalDate;
 
 public class HourlyEmployee extends Employee {
     private int hoursWorkedPerMonth;
     private double hourlyRate;
+
+    private LocalDate hireDate;
 
 
     public HourlyEmployee(String name, LocalDate hireDate, int hoursWorkedPerMonth, double hourlyRate) {
@@ -14,17 +17,13 @@ public class HourlyEmployee extends Employee {
     }
 
 
-
-
     @Override
     public double computeMonthlyCompensation() {
         return hourlyRate * hoursWorkedPerMonth;
     }
 
 
-
-
-    }
+}
 
 
 

@@ -1,21 +1,15 @@
 package employee_app.com.hr.personnel;
-
-import employee_app.com.hr.personnel.Employee;
-
 import java.time.LocalDate;
+import java.util.ArrayList;
+
+
 
 public class HRClient {
     public static void main(String[] args) {
 
 
-
-        SalariedEmployee salariedEmployee1 = new SalariedEmployee
-                ("Mark", LocalDate.of(2023, 8, 31),
-                8000.00);
-        SalariedEmployee salariedEmployee2 = new SalariedEmployee
-                ("Mariah", LocalDate.of(2017, 5, 10),
-                7000.00);
-
+        SalariedEmployee salariedEmployee1 = new SalariedEmployee("Mark", LocalDate.of(2023, 8, 31), 8000.00);
+        SalariedEmployee salariedEmployee2 = new SalariedEmployee("Mariah", LocalDate.of(2017, 5, 10), 7000.00);
 
 
         Department department = new Department("Communications", "DC");
@@ -34,9 +28,7 @@ public class HRClient {
 
         double departmentTotalMonthlyCompensation
                 = department.computeDepartmentTotalMonthlyCompensation();
-        System.out.println("Total Department Monthly Compensation: "  + departmentTotalMonthlyCompensation);
-
-
+        System.out.println("Total Department Monthly Compensation: " + departmentTotalMonthlyCompensation);
 
 
     }

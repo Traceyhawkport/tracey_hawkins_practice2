@@ -1,7 +1,7 @@
 package employee_app.com.hr.personnel;
 
 import java.time.LocalDate;
-import java.time.Period;
+import java.util.ArrayList;
 
 public abstract class Employee {
 
@@ -18,8 +18,6 @@ public abstract class Employee {
     }
 
 
-
-
     public void setName(String name) {
         this.name = name;
 
@@ -32,6 +30,7 @@ public abstract class Employee {
     public LocalDate getHireDate() {
         return hireDate;
     }
+
     public void setHireDate(LocalDate hireDate) {
         this.hireDate = hireDate;
     }
@@ -46,7 +45,8 @@ public abstract class Employee {
     }
 
 
-    public abstract double computeMonthlyCompensation ();
+    public abstract double computeMonthlyCompensation();
+
     {
 
         //period class java time package
@@ -55,7 +55,7 @@ public abstract class Employee {
     }
 
 
-    }
+}
 
 
 

@@ -1,4 +1,5 @@
 package Arraypractice;
+
 import java.util.Arrays;
 
 public class Main6 {
@@ -10,8 +11,8 @@ public class Main6 {
             myIntArrays[i] = i * 2;
         }
         //loop through each array and print out each element
-        for (int i = 0; i < myIntArrays.length; i++){
-            System.out.println("myIntArrays["+ i + "] = " + myIntArrays[i]);
+        for (int i = 0; i < myIntArrays.length; i++) {
+            System.out.println("myIntArrays[" + i + "] = " + myIntArrays[i]);
         }
     }
 }

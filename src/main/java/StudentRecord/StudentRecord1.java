@@ -4,11 +4,11 @@ public class StudentRecord1 {
 
 
     private String StudentName;//class feilds-data for class
-    private  double SciScore;//class feilds
+    private double SciScore;//class feilds
     private double MathScore;//class feilds
-     private static int numberOfStudents;
+    private static int numberOfStudents;
 
-   //CONSTRUCTOR METHOD BELOW
+    //CONSTRUCTOR METHOD BELOW
     public StudentRecord1(String StudentName, double SciScore, double MathScore) {
         numberOfStudents++;
         this.StudentName = StudentName;
@@ -33,7 +33,7 @@ public class StudentRecord1 {
     }
     //end of SciScore
 
-    public void  setMathScore(double MathScore) {
+    public void setMathScore(double MathScore) {
         this.MathScore = MathScore;
     }
 
@@ -41,10 +41,10 @@ public class StudentRecord1 {
         return MathScore;
 
         //public int getnumberOfStudents() {
-            //return numberOfStudents;
+        //return numberOfStudents;
 
 
-        }
     }
+}
 
 

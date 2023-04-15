@@ -28,9 +28,8 @@ public class Person1 {
     }// end of age
 
 
-
-    public static String displayHeight(double height){
-        return  Double.toString(height);
+    public static String displayHeight(double height) {
+        return Double.toString(height);
     }
 
     public void sayHello() {

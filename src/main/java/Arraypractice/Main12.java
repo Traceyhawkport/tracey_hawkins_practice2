@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 
 import java.util.Arrays;
+
 public class Main12 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //question at beginning of program
 
@@ -16,15 +17,15 @@ public class Main12 {
         String[] favorites = new String[numFavorites];
         //user input
         for (int i = 0; i < numFavorites; i++) {
-        System.out.print("Enter favorite #" + (i+1) + ": "); //for loop
-        favorites[i] = input.nextLine();
+            System.out.print("Enter favorite #" + (i + 1) + ": "); //for loop
+            favorites[i] = input.nextLine();
         }
         //after user input
         System.out.println("Your favorite things are:");
         for (String favorite : favorites) {
-        System.out.println("- " + favorite);
+            System.out.println("- " + favorite);
         }
-        }
-        }
+    }
+}
 
 

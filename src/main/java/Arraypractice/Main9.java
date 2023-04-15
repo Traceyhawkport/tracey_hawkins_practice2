@@ -1,13 +1,15 @@
 package Arraypractice;
+
 import java.util.Arrays;
+
 public class Main9 {
     public static void main(String[] args) {
         String[] cities = {"Washington", "Spartanburg", "Duluth", "Landover", "Suitland"};
         //print the original array
 
         System.out.println(("Original Array:"));
-        for (int i = 0; i <cities.length; i++) {
-            System.out.print(cities[i] +" ");
+        for (int i = 0; i < cities.length; i++) {
+            System.out.print(cities[i] + " ");
         }
         System.out.println();
 
@@ -21,6 +23,6 @@ public class Main9 {
             System.out.print(cities[i] + " ");
         }
         System.out.println();
-        }
     }
+}
 

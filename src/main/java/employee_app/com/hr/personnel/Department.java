@@ -1,24 +1,24 @@
 package employee_app.com.hr.personnel;
-import java.util.List;
+
+import java.time.LocalDate;
 import java.util.ArrayList;
-import employee_app.com.hr.personnel.Employee;
+import java.util.List;
 
 public class Department {
 
-        private String name;
-        private String location;
-
-        private List<Employee> employees = new ArrayList<>();
-        //private Employee[] employees = new Employee[5]; array
-        private int  nextAvailableSlotOfEmployeeArray = 0;;
-
-        public Department(String name, String location) {
-            this.name = name;
-            this.location = location;
-
-        }
+    private final String name;
+    private final String location;
 
 
+    private final List<Employee> employees = new ArrayList<>();
+    //private Employee[] employees = new Employee[5]; array
+    private final int nextAvailableSlotOfEmployeeArray = 0;
+
+    public Department(String name, String location) {
+        this.name = name;
+        this.location = location;
+
+    }
 
 
     public void addEmployee(Employee employee) {
@@ -34,9 +34,9 @@ public class Department {
                 numberOfEmployeesWhoWorked++;
 
 
-        //for (int i = 0; i < nextAvailableSlotOfEmployeeArray; i++) {
-            //if (employees[i].work().contains("worked")) {
-               // numberOfEmployeesWhoWorked++;
+                //for (int i = 0; i < nextAvailableSlotOfEmployeeArray; i++) {
+                //if (employees[i].work().contains("worked")) {
+                // numberOfEmployeesWhoWorked++;
             }
         }
 
@@ -53,9 +53,9 @@ public class Department {
         }
 
         //for (int i = 0; i < nextAvailableSlotOfEmployeeArray; i++) {
-            //double monthlyCompensation
-                   // = employees[i].computeMonthlyCompensation();
-           // monthlyTotalCompensation += monthlyCompensation;
+        //double monthlyCompensation
+        // = employees[i].computeMonthlyCompensation();
+        // monthlyTotalCompensation += monthlyCompensation;
 
 
         return monthlyTotalCompensation;
