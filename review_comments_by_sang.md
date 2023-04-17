@@ -8,3 +8,10 @@ weekly 1-1.
 - .gitignore is missing
 - "employee-app" has compile errors
 - "employee-app" part #1 is not finished
+
+
+## April 17 (Monday)
+
+- .gitignore is added by Sang
+- "employee-app" is done until part #5 (Good job!)
+- "sba_exercise" part #1 failed with NumberFormatException
