@@ -1,4 +1,4 @@
-patty  krabby patty  1.25  3
+single  krabby patty  1.25  3
 double  krabby patty  1.50  12
-kelp  shake   large  1.25 10
+kelp shake  large  1.25  10
 kelp rings  salty sauce  1.50  5
