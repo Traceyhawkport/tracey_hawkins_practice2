@@ -15,3 +15,7 @@ weekly 1-1.
 - .gitignore is added by Sang
 - "employee-app" is done until part #5 (Good job!)
 - "sba_exercise" part #1 failed with NumberFormatException
+
+## April 18 (Tuesday)
+
+- "sba_exercise" part #3 done successfully
