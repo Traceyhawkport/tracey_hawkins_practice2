@@ -19,3 +19,14 @@ weekly 1-1.
 ## April 18 (Tuesday)
 
 - "sba_exercise" part #3 done successfully
+
+## April 21 (Friday)
+
+- The logic of register taxpayer is not complete
+
+```java
+     public void register (TaxPayer taxpayer) {
+         //taxPayers[currentIndex] = taxPayers;
+         currentIndex++;
+     }
+```
