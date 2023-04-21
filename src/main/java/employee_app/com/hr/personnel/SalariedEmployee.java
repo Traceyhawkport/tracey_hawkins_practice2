@@ -20,5 +20,9 @@ public class SalariedEmployee extends Employee {
     }
 
 
+    @Override
+    public double computeMonthlyTaxToPay() {
+        return 0;
+    }
 }
 

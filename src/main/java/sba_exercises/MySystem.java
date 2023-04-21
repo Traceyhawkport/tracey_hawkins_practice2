@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.Scanner;
 import sba_exercises.Item;
 
-public class MySystem {
+public class  MySystem {
 
     private static Map<String, Item> myItemsInHashMap;
 

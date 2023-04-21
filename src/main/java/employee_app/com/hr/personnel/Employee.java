@@ -3,7 +3,10 @@ package employee_app.com.hr.personnel;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public abstract class Employee {
+import employee_app.gov.irs.TaxPayer;
+
+
+public abstract class Employee implements TaxPayer { //now implements TaxPayer
 
     private String name;
     private LocalDate hireDate;
@@ -16,6 +19,7 @@ public abstract class Employee {
     public Employee() {  //remember default constructor
 
     }
+
 
 
     public void setName(String name) {
