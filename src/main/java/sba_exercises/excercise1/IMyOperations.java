@@ -7,4 +7,3 @@ public interface IMyOperations {
     void replaceAnElementInTheStringArrayListGiven(int index);
     ArrayList<String> createANewArrayListFromExistingArray();
 }
-

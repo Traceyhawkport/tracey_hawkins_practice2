@@ -1,11 +1,10 @@
-package sba_exercises;
+package sba_exercises.EXCERCISE;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-import sba_exercises.Item;
 
 public class  MySystem {
 

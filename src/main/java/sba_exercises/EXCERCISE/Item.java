@@ -1,4 +1,4 @@
-package sba_exercises;
+package sba_exercises.EXCERCISE;
 
 public class Item {
     private String itemName;
