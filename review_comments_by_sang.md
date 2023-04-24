@@ -9,7 +9,6 @@ weekly 1-1.
 - "employee-app" has compile errors
 - "employee-app" part #1 is not finished
 
-
 ## April 17 (Monday)
 
 - .gitignore is added by Sang
@@ -30,3 +29,12 @@ weekly 1-1.
          currentIndex++;
      }
 ```
+
+## April 24 (Monday)
+
+- "sba_exercise/exercise1"
+  - replaceAnElementInTheStringArrayListGiven is not invoked in the main method
+  - createANewArrayListFromExistingArray is NOT done (read instruction again)
+
+- "sba_exercise/exercise2"
+  - All the remaining task other than calculating average is NOT done (read instruction again)
