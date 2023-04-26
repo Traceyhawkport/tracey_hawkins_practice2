@@ -49,7 +49,7 @@ public void convert(String[] a) {
 
         for (int i = 0; i < a.length; i++) {
             arrayToList.add(a[i]);
-            String x = "i have added the sting: "
+            String x = "i have added the string: "
                     + a[i]
                     + " at the index: "
                     + i;
@@ -74,7 +74,7 @@ public void convert(String[] a) {
 
         ArrayList<String> newArrayList = new ArrayList<>();
         for (String s : arrayToList) {
-            if (!s.equals(" ")) {
+            if (!s.equals("")) {
                 newArrayList.add(s);
             }
         }
