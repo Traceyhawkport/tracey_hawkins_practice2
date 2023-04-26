@@ -1,7 +1,10 @@
 package sba_exercises.sbaex1;
 
 //// <<<<<======== Click here to expand the locked stub code
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Random;
+import java.util.Scanner;
 
 interface MyList{
     void convert(String[] a);
